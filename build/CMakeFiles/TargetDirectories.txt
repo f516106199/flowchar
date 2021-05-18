@@ -1,0 +1,3 @@
+/home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles/rebuild_cache.dir
+/home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles/edit_cache.dir
+/home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles/flowchar.dir

@@ -1,0 +1,6 @@
+if(a>b){
+    return f(x);
+}
+else{
+    return -f(x);
+}

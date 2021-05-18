@@ -1,0 +1,10 @@
+start;
+while(alive){
+    if(happy){
+        try to enjoy life;
+    }
+    else{
+        try to be happy;
+    }
+}
+die;

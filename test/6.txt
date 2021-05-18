@@ -1,0 +1,20 @@
+be born;
+while(alive){
+    ++age;
+    while(happy){
+        smile;
+    }
+    if(happy){
+        work hard;
+        ++money;
+    }
+    else{
+        try to be happy;
+        spend money;
+        --money;
+    }
+}
+if(want to revive){
+    age=money=0;
+}
+die;
