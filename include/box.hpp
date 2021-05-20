@@ -5,16 +5,27 @@
 #include<vector>
 #include<string>
         namespace fc{
+namespace fe{
+    class ifTree;
+    class whileTree;
+    class simpleTree;
+    class seqTree;
+}//namespace fe 
+namespace fd{
+    class charEmitter;
+}
             namespace fb{
 
 class box{
-public:
+    friend class seqbox;
+protected:
     enum class Kind{
         simple,
         ifbox,
         whilebox,
         seqbox
     };
+protected:
     std::pair<int,int>endpos;
     int lw;
     int rw;
@@ -27,8 +38,12 @@ public:
 };
 
 class seqbox:public box{
-public:
+    friend class fe::seqTree;
+    friend class ifbox;
+    friend class whilebox;
+    friend class fd::charEmitter;
     std::vector<box*>boxVec;
+public:
     seqbox():box(Kind::seqbox){} 
     virtual void getW()override;
     virtual std::pair<int,int> getPos(int r,int c)override;
@@ -37,7 +52,9 @@ public:
 };
 
 class ifbox:public box{
-public:
+    friend class fe::ifTree;
+    friend class seqbox;
+private:
     seqbox* if_do;
     seqbox* else_do;
     std::string cond;
@@ -52,7 +69,9 @@ public:
 };
 
 class whilebox:public box{
-public:
+    friend class fe::whileTree;
+    friend class seqbox;
+private:
     seqbox* loop_do;
     int width;
     int len_r;
@@ -67,7 +86,9 @@ public:
 };
   
 class simplebox:public box{
-public:
+    friend class fe::simpleTree;
+    friend class seqbox;
+private:
     int width;
     std::string text;
     std::pair<int,int>pos;

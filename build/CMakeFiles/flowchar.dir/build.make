@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/cement/Documents/hellogithub/FlowChar
+CMAKE_SOURCE_DIR = /home/cement/Documents/hellogithub/FlowChar.bak
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/cement/Documents/hellogithub/FlowChar/build
+CMAKE_BINARY_DIR = /home/cement/Documents/hellogithub/FlowChar.bak/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/flowchar.dir/depend.make
@@ -59,81 +59,81 @@ include CMakeFiles/flowchar.dir/flags.make
 
 CMakeFiles/flowchar.dir/src/box.cc.o: CMakeFiles/flowchar.dir/flags.make
 CMakeFiles/flowchar.dir/src/box.cc.o: ../src/box.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/flowchar.dir/src/box.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/box.cc.o -c /home/cement/Documents/hellogithub/FlowChar/src/box.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar.bak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/flowchar.dir/src/box.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/box.cc.o -c /home/cement/Documents/hellogithub/FlowChar.bak/src/box.cc
 
 CMakeFiles/flowchar.dir/src/box.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flowchar.dir/src/box.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar/src/box.cc > CMakeFiles/flowchar.dir/src/box.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar.bak/src/box.cc > CMakeFiles/flowchar.dir/src/box.cc.i
 
 CMakeFiles/flowchar.dir/src/box.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flowchar.dir/src/box.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar/src/box.cc -o CMakeFiles/flowchar.dir/src/box.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar.bak/src/box.cc -o CMakeFiles/flowchar.dir/src/box.cc.s
 
 CMakeFiles/flowchar.dir/src/charEmitter.cc.o: CMakeFiles/flowchar.dir/flags.make
 CMakeFiles/flowchar.dir/src/charEmitter.cc.o: ../src/charEmitter.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/flowchar.dir/src/charEmitter.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/charEmitter.cc.o -c /home/cement/Documents/hellogithub/FlowChar/src/charEmitter.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar.bak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/flowchar.dir/src/charEmitter.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/charEmitter.cc.o -c /home/cement/Documents/hellogithub/FlowChar.bak/src/charEmitter.cc
 
 CMakeFiles/flowchar.dir/src/charEmitter.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flowchar.dir/src/charEmitter.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar/src/charEmitter.cc > CMakeFiles/flowchar.dir/src/charEmitter.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar.bak/src/charEmitter.cc > CMakeFiles/flowchar.dir/src/charEmitter.cc.i
 
 CMakeFiles/flowchar.dir/src/charEmitter.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flowchar.dir/src/charEmitter.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar/src/charEmitter.cc -o CMakeFiles/flowchar.dir/src/charEmitter.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar.bak/src/charEmitter.cc -o CMakeFiles/flowchar.dir/src/charEmitter.cc.s
 
 CMakeFiles/flowchar.dir/src/main.cc.o: CMakeFiles/flowchar.dir/flags.make
 CMakeFiles/flowchar.dir/src/main.cc.o: ../src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/flowchar.dir/src/main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/main.cc.o -c /home/cement/Documents/hellogithub/FlowChar/src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar.bak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/flowchar.dir/src/main.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/main.cc.o -c /home/cement/Documents/hellogithub/FlowChar.bak/src/main.cc
 
 CMakeFiles/flowchar.dir/src/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flowchar.dir/src/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar/src/main.cc > CMakeFiles/flowchar.dir/src/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar.bak/src/main.cc > CMakeFiles/flowchar.dir/src/main.cc.i
 
 CMakeFiles/flowchar.dir/src/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flowchar.dir/src/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar/src/main.cc -o CMakeFiles/flowchar.dir/src/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar.bak/src/main.cc -o CMakeFiles/flowchar.dir/src/main.cc.s
 
 CMakeFiles/flowchar.dir/src/token.cc.o: CMakeFiles/flowchar.dir/flags.make
 CMakeFiles/flowchar.dir/src/token.cc.o: ../src/token.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/flowchar.dir/src/token.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/token.cc.o -c /home/cement/Documents/hellogithub/FlowChar/src/token.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar.bak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/flowchar.dir/src/token.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/token.cc.o -c /home/cement/Documents/hellogithub/FlowChar.bak/src/token.cc
 
 CMakeFiles/flowchar.dir/src/token.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flowchar.dir/src/token.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar/src/token.cc > CMakeFiles/flowchar.dir/src/token.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar.bak/src/token.cc > CMakeFiles/flowchar.dir/src/token.cc.i
 
 CMakeFiles/flowchar.dir/src/token.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flowchar.dir/src/token.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar/src/token.cc -o CMakeFiles/flowchar.dir/src/token.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar.bak/src/token.cc -o CMakeFiles/flowchar.dir/src/token.cc.s
 
 CMakeFiles/flowchar.dir/src/tree.cc.o: CMakeFiles/flowchar.dir/flags.make
 CMakeFiles/flowchar.dir/src/tree.cc.o: ../src/tree.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/flowchar.dir/src/tree.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/tree.cc.o -c /home/cement/Documents/hellogithub/FlowChar/src/tree.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar.bak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/flowchar.dir/src/tree.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/tree.cc.o -c /home/cement/Documents/hellogithub/FlowChar.bak/src/tree.cc
 
 CMakeFiles/flowchar.dir/src/tree.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flowchar.dir/src/tree.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar/src/tree.cc > CMakeFiles/flowchar.dir/src/tree.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar.bak/src/tree.cc > CMakeFiles/flowchar.dir/src/tree.cc.i
 
 CMakeFiles/flowchar.dir/src/tree.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flowchar.dir/src/tree.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar/src/tree.cc -o CMakeFiles/flowchar.dir/src/tree.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar.bak/src/tree.cc -o CMakeFiles/flowchar.dir/src/tree.cc.s
 
 CMakeFiles/flowchar.dir/src/CodePaser.cc.o: CMakeFiles/flowchar.dir/flags.make
 CMakeFiles/flowchar.dir/src/CodePaser.cc.o: ../src/CodePaser.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/flowchar.dir/src/CodePaser.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/CodePaser.cc.o -c /home/cement/Documents/hellogithub/FlowChar/src/CodePaser.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cement/Documents/hellogithub/FlowChar.bak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/flowchar.dir/src/CodePaser.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/flowchar.dir/src/CodePaser.cc.o -c /home/cement/Documents/hellogithub/FlowChar.bak/src/CodePaser.cc
 
 CMakeFiles/flowchar.dir/src/CodePaser.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/flowchar.dir/src/CodePaser.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar/src/CodePaser.cc > CMakeFiles/flowchar.dir/src/CodePaser.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/cement/Documents/hellogithub/FlowChar.bak/src/CodePaser.cc > CMakeFiles/flowchar.dir/src/CodePaser.cc.i
 
 CMakeFiles/flowchar.dir/src/CodePaser.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/flowchar.dir/src/CodePaser.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar/src/CodePaser.cc -o CMakeFiles/flowchar.dir/src/CodePaser.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/cement/Documents/hellogithub/FlowChar.bak/src/CodePaser.cc -o CMakeFiles/flowchar.dir/src/CodePaser.cc.s
 
 # Object files for target flowchar
 flowchar_OBJECTS = \
@@ -155,7 +155,7 @@ flowchar: CMakeFiles/flowchar.dir/src/tree.cc.o
 flowchar: CMakeFiles/flowchar.dir/src/CodePaser.cc.o
 flowchar: CMakeFiles/flowchar.dir/build.make
 flowchar: CMakeFiles/flowchar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable flowchar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/cement/Documents/hellogithub/FlowChar.bak/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable flowchar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/flowchar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -168,6 +168,6 @@ CMakeFiles/flowchar.dir/clean:
 .PHONY : CMakeFiles/flowchar.dir/clean
 
 CMakeFiles/flowchar.dir/depend:
-	cd /home/cement/Documents/hellogithub/FlowChar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cement/Documents/hellogithub/FlowChar /home/cement/Documents/hellogithub/FlowChar /home/cement/Documents/hellogithub/FlowChar/build /home/cement/Documents/hellogithub/FlowChar/build /home/cement/Documents/hellogithub/FlowChar/build/CMakeFiles/flowchar.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/cement/Documents/hellogithub/FlowChar.bak/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/cement/Documents/hellogithub/FlowChar.bak /home/cement/Documents/hellogithub/FlowChar.bak /home/cement/Documents/hellogithub/FlowChar.bak/build /home/cement/Documents/hellogithub/FlowChar.bak/build /home/cement/Documents/hellogithub/FlowChar.bak/build/CMakeFiles/flowchar.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/flowchar.dir/depend
 

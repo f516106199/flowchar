@@ -6,5 +6,5 @@ CXX_FLAGS = -O3 -DNDEBUG
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/cement/Documents/hellogithub/FlowChar/include 
+CXX_INCLUDES = -I/home/cement/Documents/hellogithub/FlowChar.bak/include 
 

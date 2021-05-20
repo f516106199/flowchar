@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/cement/Documents/hellogithub/FlowChar/include/CodePaser.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/CodePaser.hpp
 fstream
 -
 cstring
@@ -18,13 +18,13 @@ vector
 stack
 -
 token.hpp
-/home/cement/Documents/hellogithub/FlowChar/include/token.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/token.hpp
 tree.hpp
-/home/cement/Documents/hellogithub/FlowChar/include/tree.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/tree.hpp
 box.hpp
-/home/cement/Documents/hellogithub/FlowChar/include/box.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/box.hpp
 
-/home/cement/Documents/hellogithub/FlowChar/include/box.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/box.hpp
 utility
 -
 cmath
@@ -34,13 +34,13 @@ vector
 string
 -
 
-/home/cement/Documents/hellogithub/FlowChar/include/charEmitter.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/charEmitter.hpp
 box.hpp
-/home/cement/Documents/hellogithub/FlowChar/include/box.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/box.hpp
 fstream
 -
 
-/home/cement/Documents/hellogithub/FlowChar/include/token.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/token.hpp
 string
 -
 utility
@@ -48,29 +48,51 @@ utility
 set
 -
 
-/home/cement/Documents/hellogithub/FlowChar/include/tree.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/tree.hpp
 token.hpp
-/home/cement/Documents/hellogithub/FlowChar/include/token.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/token.hpp
 box.hpp
-/home/cement/Documents/hellogithub/FlowChar/include/box.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/box.hpp
 vector
 -
 
-/home/cement/Documents/hellogithub/FlowChar/src/charEmitter.cc
+/home/cement/Documents/hellogithub/FlowChar.bak/src/CodePaser.cc
+../include/CodePaser.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/CodePaser.hpp
+../include/token.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/token.hpp
+exception
+-
+iostream
+-
+vector
+-
+stack
+-
+
+/home/cement/Documents/hellogithub/FlowChar.bak/src/box.cc
+../include/box.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/box.hpp
+
+/home/cement/Documents/hellogithub/FlowChar.bak/src/charEmitter.cc
 ../include/charEmitter.hpp
-/home/cement/Documents/hellogithub/FlowChar/include/charEmitter.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/charEmitter.hpp
 iostream
 -
 fstream
 -
 
-/home/cement/Documents/hellogithub/FlowChar/src/main.cc
+/home/cement/Documents/hellogithub/FlowChar.bak/src/main.cc
 ../include/CodePaser.hpp
-/home/cement/Documents/hellogithub/FlowChar/include/CodePaser.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/CodePaser.hpp
 ../include/charEmitter.hpp
-/home/cement/Documents/hellogithub/FlowChar/include/charEmitter.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/charEmitter.hpp
 iostream
 -
 string.h
 -
+
+/home/cement/Documents/hellogithub/FlowChar.bak/src/tree.cc
+../include/tree.hpp
+/home/cement/Documents/hellogithub/FlowChar.bak/include/tree.hpp
 

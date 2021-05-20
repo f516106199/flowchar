@@ -1,4 +1,4 @@
-# Install script for directory: /home/cement/Documents/hellogithub/FlowChar
+# Install script for directory: /home/cement/Documents/hellogithub/FlowChar.bak
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/cement/Documents/hellogithub/FlowChar/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/cement/Documents/hellogithub/FlowChar.bak/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
